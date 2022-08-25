@@ -19,5 +19,5 @@ def chatbotResponse():
 
     return jsonify({"response": response})
 
-#if __name__ =="_main_":
-app.run(host="0.0.0.0",port="888",debug=True)
+# if __name__ =="_main_":
+#     app.run(host="0.0.0.0",port="888",debug=True)
